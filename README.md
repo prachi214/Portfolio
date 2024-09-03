@@ -1,5 +1,5 @@
 
-# Portfolio
+# Portfolio ✨
 
 This is a portfolio project built with ReactJS and TypeScript, styled using Tailwind CSS. It utilizes Mantine for UI components, AOS for scroll animations, and Vanta for dynamic backgrounds. The project also features react-pdf for PDF viewing and typewriter-effect for text animations, showcasing a responsive and interactive personal portfolio website.
 
@@ -17,7 +17,7 @@ This is a portfolio project built with ReactJS and TypeScript, styled using Tail
 * Learn More
 
 * License
-## Getting Started
+## Getting Started 🚀
 
 This project was bootstrapped with Create React App. To run the project locally, follow these steps:
 
