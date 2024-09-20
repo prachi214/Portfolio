@@ -21,7 +21,7 @@ const Info={
 
 {
     title:"Password Generator",
-    description:"the full-stack Airbnb clone project. This application allows users to register, log in, and create listing, edit it etc. It aims to recreate the core functionalities of Airbnb, offering a platform for users to host and book accommodations effortlessly.",
+    description:"This is a frontend project designed to enable users to generate passwords based on specific criteria, such as password length, and the inclusion of uppercase andlowercase letters, numbers, and symbols.",
     image:"./project1c.jpg",
     live:true,
     technologies:["HTML","CSS","JavaScript"],
@@ -30,7 +30,7 @@ const Info={
   },
   {
     title:"Netflix Clone",
-    description:"the full-stack Airbnb clone project. This application allows users to register, log in, and create listing, edit it etc. It aims to recreate the core functionalities of Airbnb, offering a platform for users to host and book accommodations effortlessly.",
+    description:"This project was developed exclusively using HTML and CSS. It is fully responsive, adapting seamlessly to different device sizes.",
     image:"./project3.jpg",
     live:true,
     technologies:["HTML","CSS"],
@@ -40,7 +40,7 @@ const Info={
 
   {
     title:"Spotify Clone",
-    description:"the full-stack Airbnb clone project. This application allows users to register, log in, and create listing, edit it etc. It aims to recreate the core functionalities of Airbnb, offering a platform for users to host and book accommodations effortlessly.",
+    description:" I developed the user interface using HTML and CSS. Although the design is not fully responsive, it effectively showcases my skills in structuring web pages and styling elements to create a clean and visually appealing layout.",
     image:"./project4.jpg",
     live:true,
     technologies:["HTML","CSS"],

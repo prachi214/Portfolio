@@ -93,19 +93,19 @@ The following development dependencies are used in this project:
 
 To learn more about the tools and libraries used in this project:
 
-* [Create React App documentation](URL)
+* [Create React App documentation](https://react.dev/)
 
 
-* [React documentation](URL)
+* [React documentation](https://react.dev/)
 
-* [Mantine Documentation](URL)
+* [Mantine Documentation](https://mantine.dev/guides/vite/)
 
-* [AOS Library](URL)
+* [AOS Library](https://michalsnik.github.io/aos/)
 
 
-* [Vanta Library](URL)
+* [Vanta Library](https://www.vantajs.com/)
 
-* [Tailwind CSS Documentation](URL)
+* [Tailwind CSS Documentation](https://tailwindcss.com/)
 ## License
 
 

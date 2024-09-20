@@ -39,29 +39,11 @@ const About = () => {
                 size: 0.2,
              spacing:0.01,
                 showLines:false,
-          //dot iske reason
-                // spacing: 20,
+
               
             }))
         }
-//         if (!trunk) {
-//             setTrunk(TRUNK({
-//                 el: "#photo",
-//                 mouseControls: true,
-//                 touchControls: true,
-//                 gyroControls: false,
-//                 minHeight: 200.00,
-//                 minWidth: 200.00,
-//                 scale: 1.00,
-            
-//                 scaleMobile: 1.00,
-//                 color: 0x64FFDA,
-//                 backgroundColor: 0x112240,
-// // spacing: 20,
-// chaos: 0.10
-//               })
-//             )
-//         }
+
         return () => {
        
             // preventing memory overflow
@@ -73,44 +55,44 @@ const About = () => {
     }, [])
     return (
         <>
-        <div data-aos="zoom-out-up" data-aos-duration="800"  className="mt-28 flex relative overflow-hidden  items-center font-mono px-16 py-10 h-fit" id="About">
-        <Particles
-        className="absolute inset-0"
-        quantity={1000}
-        ease={80}
-        color="#64FFDA"
-        vx={0.2}
-        vy={0.2}
-        refresh
-      />
-            <div className="ml-20 w-3/6 flex flex-col">
-                <div className=" text-primaryColor text-3xl">Hii, I am</div>
-                <div className="text-white text-[4.25rem] font-extrabold">{Info.name}</div>
-                {/* <div></div> */}
-                <div className="text-white text-4xl flex font-semibold">I'm a&nbsp;<span className="text-primaryColor"><Typewriter
-  options={{
-    strings: Info.stack,
-    autoStart: true,
-    loop: true,
-  }}
-                /></span></div>
-                <div className="text-textColor  text-xl text-justify my-8 font-semibold">{Info.bio}</div>
-<div className="flex gap-3">
-
-
-                <Button onClick={open} className="!text-bgColor !w-fit" size="lg" variant="filled" color="#64FFDA">Check Resume</Button>
-                <Button component="a"  href="/resume-document.pdf" download={Info.name}  className="!text-primaryColor !w-fit" size="lg" variant="outline" color="#64FFDA"  rightSection={<IconDownload size={20} />}>Download</Button>
+        <div data-aos="zoom-out-up" data-aos-duration="800" className="mt-28 flex  lg-mx:flex-wrap lg-mx:flex-col-reverse justify-around items-center font-mono px-10 py-10 h-fit lg-mx:justify-between xs:gap-4" id="About">
+            <Particles
+                className="absolute inset-0"
+                quantity={1000}
+                ease={80}
+                color="#64FFDA"
+                vx={0.2}
+                vy={0.2}
+                refresh
+            />
+            <div className="lg:w-3/6  flex flex-col text-center lg:text-left lg:ml-20 gap-3">
+                <div className="text-primaryColor text-3xl lg-mx:text-2xl  xs:text-lg">Hii, I am</div>
+                <div className="text-white text-4xl lg:text-5xl xs:text-2xl font-extrabold">{Info.name}</div>
+                <div className="text-white text-4xl flex font-semibold lg:text-xl  lg-mx:justify-center  xs:text-lg">
+                    I'm a&nbsp;
+                    <span className="text-primaryColor">
+                        <Typewriter
+                            options={{
+                                strings: Info.stack,
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
+                    </span>
+                </div>
+                <div className="text-textColor text-lg lg:text-base xs:text-sm my-8 lg:my-0 font-semibold">{Info.bio}</div>
+                <div className="flex gap-3 justify-center lg:justify-start">
+                    <Button onClick={open} className="!text-bgColor" size="lg" variant="filled" color="#64FFDA">Check Resume</Button>
+                    <Button component="a" href="/resume-document.pdf" download={Info.name} className="!text-primaryColor" size="lg" variant="outline" color="#64FFDA" rightSection={<IconDownload size={20} />}>Download</Button>
                 </div>
             </div>
-            <div className=" h-fit flex justify-center items-center rounded-full -right-40  w-fit ml-16"   id="photo">
-            <NeonGradientCard className="w-[325px] h-[325px] items-center justify-center text-center !mt-20">
-<img className=" w-full h-full !z-10 rounded-full "   rounded-full src="/resumep.jpg" alt="profile"/>
-</NeonGradientCard>
+            <div className="flex justify-center items-center mr-9 rounded-full w-[325px] lg:w-64 h-[325px] lg:h-64 lg:ml-28 mt-8 lg:mt-0" id="photo">
+                <NeonGradientCard className="w-full h-full flex items-center justify-center rounded-full">
+                    <img className="w-full h-full rounded-full" src="/resumep.jpg" alt="profile"/>
+                </NeonGradientCard>
             </div>
-
-           
         </div>
-        <ResumeViewer opened={opened} close={close}/>
+        <ResumeViewer opened={opened} close={close} />
         </>
 
 

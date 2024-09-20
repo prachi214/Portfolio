@@ -11,6 +11,7 @@ const SkillBadge=(skills:[])=>{
 
 const SkillCard=(props:any)=>{
     return <div data-aos="flip-right" data-aos-duration="800" data-aos-easing="ease-in-sine"  className="w-[49%]  shadow-[0_0_10px_0_#64FFDA40] rounded-2xl border border-primaryColor p-5">
+
 <div className="text-3xl mb-4 text-white text-center font-bold">
     {props.title}
 </div>

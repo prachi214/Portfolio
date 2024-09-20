@@ -7,6 +7,7 @@ const ProjectCards=(props:any)=>{
 return(
   <>
   <div data-aos="flip-right" data-aos-duration="800" data-aos-easing="ease-in-sine">
+
     <Card onClick={open} className='!bg-bgColor cursor-pointer transition-transform duration-300ms ease-in-out mb-5 hover:!scale-[1.02] hover:!shadow-[0_0_10px_1px_#64FFDA] !border-primaryColor bottom-2' w="360px" shadow="lg" padding="sm" radius="lg" withBorder>
     <Card.Section className='p-3'>
       <Image className='!rounded-xl !shadow-[0_0_5px_0_#64FFDA]'
@@ -22,6 +23,8 @@ return(
     </Group>
     <Group  mt="xm" mb="xs">
       {props.technologies.map((tech:string, index:number)=>index<3 && <Badge key={index} size='lg' variant="light" color="yellow">tech</Badge>)}
+
+
     </Group>
 
     <Text className='!text-justify' size="sm" c="dimmed" lineClamp={5}>
