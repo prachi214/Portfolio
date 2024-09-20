@@ -22,7 +22,7 @@ const Info={
 {
     title:"Password Generator",
     description:"This is a frontend project designed to enable users to generate passwords based on specific criteria, such as password length, and the inclusion of uppercase andlowercase letters, numbers, and symbols.",
-    image:"./project1c.jpg",
+    image:"./project2 .jpg",
     live:true,
     technologies:["HTML","CSS","JavaScript"],
     link:"https://prachi214.github.io/Password---Generator/",
