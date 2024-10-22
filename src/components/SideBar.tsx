@@ -1,7 +1,7 @@
 import { useDisclosure } from '@mantine/hooks';
 import { IconX } from '@tabler/icons-react';
 import { Drawer, Burger} from '@mantine/core';
-import { IconHexagonLetterP} from '@tabler/icons-react';
+
 import { navLinks } from './Header';
 
 const Sidebar=()=>{

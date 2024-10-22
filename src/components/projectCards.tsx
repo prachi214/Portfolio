@@ -22,7 +22,7 @@ return(
 
     </Group>
     <Group  mt="xm" mb="xs">
-      {props.technologies.map((tech:string, index:number)=>index<3 && <Badge key={index} size='lg' variant="light" color="yellow">tech</Badge>)}
+      {props.technologies.map((tech:string, index:number)=>index<3 && <Badge key={index} size='lg' variant="light" color="yellow">{tech}</Badge>)}
 
 
     </Group>

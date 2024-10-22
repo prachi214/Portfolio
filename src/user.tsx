@@ -4,7 +4,7 @@ const Info={
 
     name:"Prachi Patel",
     stack:[" Full stack Web developer","DSA Learner" ,"Open Source Contributor"],
-    bio: "I am Patient, hardworking , adaptable person and trying to make consistent themselves towards my learning commitments so these all things help me to grow  in my tech journey."
+    bio: "I am a final year student with expertise in frontend development , proficient in modern technologies such as TypeScript,Tailwind, and ReactJs. I seek to deepen my knowledge of backend development, particularly with Node.js. Currently, I am studying DSA and have a strong interest in DBMS."
 }
 
 
@@ -14,9 +14,19 @@ const Info={
   description:"the full-stack Airbnb clone project. This application allows users to register, log in, and create listing, edit it etc. It aims to recreate the core functionalities of Airbnb, offering a platform for users to host and book accommodations effortlessly.",
   image:"./project1c.jpg",
   live:true,
-  technologies:["HTML","CSS","JavaScript","Bootstrap","Node.js","Express.js","MongoDB"],
+  technologies:["JavaScript","Express.js","MongoDB","Bootstrap","Node.js","HTML","CSS",],
   link:"https://airbnbclone-j08j.onrender.com",
   github:"https://github.com/prachi214/Airbnb-Clone"
+},
+
+{
+  title:"Portfolio Website",
+  description:"This is a portfolio project built with ReactJS and TypeScript, styled using Tailwind CSS. It utilizes Mantine for UI components, AOS for scroll animations, and Vanta for dynamic backgrounds. The project also features react-pdf for PDF viewing and typewriter-effect for text animations, showcasing a responsive and interactive personal portfolio website.",
+  image:"./portfoliop.jpg",
+  live:true,
+  technologies:["ReactJS","TypeScript","HTML","CSS"],
+  link:"https://myportfolio-blond-mu.vercel.app/",
+  github:"https://github.com/prachi214/Portfolio"
 },
 
 {
@@ -28,6 +38,17 @@ const Info={
     link:"https://prachi214.github.io/Password---Generator/",
     github:"https://github.com/prachi214/Password---Generator"
   },
+
+  {
+    title:"OCR-Translator",
+    description:"This project is a React component that allows users to upload images, extract text from them using Tesseract.js, and copy the extracted text to the clipboard. The UI is built using the Mantine component library, and the project includes drag-and-drop file uploading functionality.",
+    image:"./OCRtool.jpg",
+    live:true,
+    technologies:["ReactJS","TypeScript","HTML","CSS"],
+    link:"https://ocr-tool-mibrnnp6e-no-team3.vercel.app/",
+    github:"https://github.com/prachi214/OCR-tool"
+  },
+
   {
     title:"Netflix Clone",
     description:"This project was developed exclusively using HTML and CSS. It is fully responsive, adapting seamlessly to different device sizes.",
@@ -47,6 +68,11 @@ const Info={
     link:"https://prachi214.github.io/Spotify-clone/",
     github:"https://github.com/prachi214/Spotify-clone"
   },
+
+
+
+
+
 
     ]
     const SkillInfo = [
