@@ -4,7 +4,7 @@ const Info={
 
     name:"Prachi Patel",
     stack:[" Full stack Web developer","DSA Learner" ,"Open Source Contributor"],
-    bio: "I am a final year student with expertise in frontend development , proficient in modern technologies such as TypeScript,Tailwind, and ReactJs. I seek to deepen my knowledge of backend development, particularly with Node.js. Currently, I am studying DSA and have a strong interest in DBMS."
+    bio: "I’m Prachi Patel, a 2025 B.Tech graduate in Computer Science and Engineering with a CGPA of 8.34. I’m passionate about frontend development and enjoy solving DSA problems in C++. I’m an adaptable learner who values growth. I am seeking opportunities to apply my skills and contribute to a dynamic organization that values innovation and growth."
 }
 
 
@@ -49,15 +49,7 @@ const Info={
     github:"https://github.com/prachi214/OCR-tool"
   },
 
-  {
-    title:"Netflix Clone",
-    description:"This project was developed exclusively using HTML and CSS. It is fully responsive, adapting seamlessly to different device sizes.",
-    image:"./project3.jpg",
-    live:true,
-    technologies:["HTML","CSS"],
-    link:"https://prachi214.github.io/Netflix-clone/",
-    github:"https://github.com/prachi214/Netflix-clone"
-  },
+
 
   {
     title:"Spotify Clone",
