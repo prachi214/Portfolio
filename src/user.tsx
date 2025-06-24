@@ -25,7 +25,7 @@ const Info={
   image:"./portfoliop.jpg",
   live:true,
   technologies:["ReactJS","TypeScript","HTML","CSS"],
-  link:"https://myportfolio-blond-mu.vercel.app/",
+  link:"https://newproject-one-murex.vercel.app/",
   github:"https://github.com/prachi214/Portfolio"
 },
 
