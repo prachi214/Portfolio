@@ -29,15 +29,7 @@ const Info={
   github:"https://github.com/prachi214/Portfolio"
 },
 
-{
-    title:"Password Generator",
-    description:"This is a frontend project designed to enable users to generate passwords based on specific criteria, such as password length, and the inclusion of uppercase andlowercase letters, numbers, and symbols.",
-    image:"./project2 .jpg",
-    live:true,
-    technologies:["HTML","CSS","JavaScript"],
-    link:"https://prachi214.github.io/Password---Generator/",
-    github:"https://github.com/prachi214/Password---Generator"
-  },
+
 
   {
     title:"OCR-Translator",
@@ -61,7 +53,15 @@ const Info={
     github:"https://github.com/prachi214/Spotify-clone"
   },
 
-
+{
+    title:"Password Generator",
+    description:"This is a frontend project designed to enable users to generate passwords based on specific criteria, such as password length, and the inclusion of uppercase andlowercase letters, numbers, and symbols.",
+    image:"./project2 .jpg",
+    live:true,
+    technologies:["HTML","CSS","JavaScript"],
+    link:"https://prachi214.github.io/Password---Generator/",
+    github:"https://github.com/prachi214/Password---Generator"
+  }
 
 
 
